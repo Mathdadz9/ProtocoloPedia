@@ -12,7 +12,7 @@ const SeeInAction = () => {
       channel: "Andreas Spiess",
       duration: "12:34",
       embedId: "k6S0NeYiVzo", // Real BLE video ID
-      thumbnail: "https://img.youtube.com/vi/k6S0NeYiVzo/maxresdefault.jpg",
+      thumbnail: "https://copilot.microsoft.com/th/id/BCO.8c5813f7-11af-4c5f-be23-dfddf28cae2c.png",
       topics: ["BLE Basics", "Power Consumption", "Real Examples"]
     },
     {
@@ -21,7 +21,7 @@ const SeeInAction = () => {
       channel: "EEVblog",
       duration: "15:22",
       embedId: "oCBhT6cWPQ8", // Example Bluetooth comparison video
-      thumbnail: "https://img.youtube.com/vi/oCBhT6cWPQ8/maxresdefault.jpg",
+      thumbnail: "https://copilot.microsoft.com/th/id/BCO.0700ed03-e7dc-4318-9f3d-8da6f888365a.png",
       topics: ["Comparison", "Use Cases", "Technical Details"]
     }
   ];
@@ -103,7 +103,7 @@ const SeeInAction = () => {
                     <Button 
                       size="lg"
                       className="bg-white/90 text-black hover:bg-white"
-                      onClick={() => window.open(`https://www.youtube.com/watch?v=${video.embedId}`, '_blank')}
+                      onClick={() => window.open(`https://www.youtube.com/watch?v=V4u6Wxa2Cqs}`, '_blank')}
                     >
                       <Play className="h-5 w-5 mr-2" />
                       Assistir
@@ -129,7 +129,7 @@ const SeeInAction = () => {
                   variant="outline" 
                   size="sm" 
                   className="w-full"
-                  onClick={() => window.open(`https://www.youtube.com/watch?v=${video.embedId}`, '_blank')}
+                  onClick={() => window.open(`https://www.youtube.com/watch?v=SynyKRkbLh8}`, '_blank')}
                 >
                   <ExternalLink className="h-4 w-4 mr-2" />
                   Assistir no YouTube
@@ -200,7 +200,7 @@ const SeeInAction = () => {
             <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
               <iframe
                 className="absolute top-0 left-0 w-full h-full rounded-lg"
-                src="https://www.youtube.com/embed/k6S0NeYiVzo"
+                src="https://copilot.microsoft.com/th/id/BCO.f181408c-f710-499c-ac7c-6877d4026cfd.png"
                 title="BLE em Ação"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
