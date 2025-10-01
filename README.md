@@ -87,8 +87,9 @@ graph TD
     Transporte --> Sessao[Camada de Sessão]
     Sessao --> Apresentacao[Camada de Apresentação]
     Apresentacao --> Aplicacao[Camada de Aplicação]
+```
+
 5. Comunicação TCP vs UDP
-``` 
 ```mermaid
 
 flowchart LR
@@ -132,9 +133,6 @@ sequenceDiagram
 ```
 ## 📦 Instalação e Uso
 bash
-
-# Clone este repositório
-git clone https://github.com/seu-usuario/ProtocoloPedia.git
 
 # Acesse a pasta
 cd ProtocoloPedia
